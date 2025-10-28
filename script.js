@@ -6,11 +6,11 @@ function toggleMode() {
 
   // troca imagem conforme o modo
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/logo-marca.jpeg")
     // salva o modo claro no localStorage
     localStorage.setItem("theme", "light")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/ju-logo-dark.png")
     // salva o modo escuro no localStorage
     localStorage.setItem("theme", "dark")
   }
@@ -24,9 +24,9 @@ window.onload = () => {
 
   if (savedTheme === "light") {
     html.classList.add("light")
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/logo-marca.jpeg")
   } else {
     html.classList.remove("light")
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/ju-logo-dark.png")
   }
 }

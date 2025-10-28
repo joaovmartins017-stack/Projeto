@@ -6,21 +6,21 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(255, 255, 255, 0.02);
-  --highlight-color: rgba(255, 255, 255, 0.2);
+  --bg-url: url(./assets/fundo-black.jpeg);
+  --stroke-color: rgba(212, 175, 55, 0.6); /* dourado suave */
+  --surface-color: rgba(212, 175, 55, 0.05); /* fundo sutil */
+  --surface-color-hover: rgba(212, 175, 55, 0.1); /* leve destaque */
+  --highlight-color: rgba(212, 175, 55, 0.2); /* brilho leve */
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
-  --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(255, 255, 255, 0.02);
-  --highlight-color: rgba(0, 0, 0, 0.1);
+  --bg-url: url(./assets/fundo-light.jpeg);
+  --stroke-color: rgba(191, 161, 74, 0.6); /* dourado mais leve */
+  --surface-color: rgba(191, 161, 74, 0.05); /* fundo clean */
+  --surface-color-hover: rgba(191, 161, 74, 0.15); /* destaque elegante */
+  --highlight-color: rgba(191, 161, 74, 0.25); /* leve brilho */
   --switch-bg-url: url(./assets/sun.svg);
 }
 
@@ -47,7 +47,7 @@ body * {
 }
 
 #profile img {
-  width: 112px;
+  width: 150px;
 }
 
 #profile p {
@@ -154,11 +154,11 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/fundo-black.jpeg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/fundo-light.jpeg);
   }
 }
 
@@ -178,4 +178,26 @@ footer {
   to {
     left: 0;
   }
+}
+
+#profile img {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.1); /* leve brilho dourado */
+  padding: 10px;
+  border: 2px solid rgba(212, 175, 55, 0.4); /* borda dourada elegante */
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3); /* brilho suave */
+  transition: all 0.3s ease;
+}
+
+#profile img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.5);
+}
+
+.light #profile img {
+  background: rgba(191, 161, 74, 0.1);
+  border: 2px solid rgba(191, 161, 74, 0.5);
+  box-shadow: 0 0 20px rgba(191, 161, 74, 0.3);
 }
