@@ -7,25 +7,25 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/fundo-black.jpeg);
-  --stroke-color: rgba(212, 175, 55, 0.6); /* dourado suave */
-  --surface-color: rgba(212, 175, 55, 0.05); /* fundo sutil */
-  --surface-color-hover: rgba(212, 175, 55, 0.1); /* leve destaque */
-  --highlight-color: rgba(212, 175, 55, 0.2); /* brilho leve */
+  --stroke-color: rgba(212, 175, 55, 0.6);
+  --surface-color: rgba(212, 175, 55, 0.05);
+  --surface-color-hover: rgba(212, 175, 55, 0.1);
+  --highlight-color: rgba(212, 175, 55, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
   --text-color: black;
   --bg-url: url(./assets/fundo-light.jpeg);
-  --stroke-color: rgba(191, 161, 74, 0.6); /* dourado mais leve */
-  --surface-color: rgba(191, 161, 74, 0.05); /* fundo clean */
-  --surface-color-hover: rgba(191, 161, 74, 0.15); /* destaque elegante */
-  --highlight-color: rgba(191, 161, 74, 0.25); /* leve brilho */
+  --stroke-color: rgba(191, 161, 74, 0.6);
+  --surface-color: rgba(191, 161, 74, 0.05);
+  --surface-color-hover: rgba(191, 161, 74, 0.15);
+  --highlight-color: rgba(191, 161, 74, 0.25);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
-  background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url);
   height: 100vh;
 }
 
@@ -44,10 +44,6 @@ body * {
 #profile {
   text-align: center;
   padding: 24px;
-}
-
-#profile img {
-  width: 150px;
 }
 
 #profile p {
@@ -184,10 +180,10 @@ footer {
   width: 180px;
   height: auto;
   border-radius: 50%;
-  background: rgba(212, 175, 55, 0.1); /* leve brilho dourado */
+  background: rgba(212, 175, 55, 0.1);
   padding: 10px;
-  border: 2px solid rgba(212, 175, 55, 0.4); /* borda dourada elegante */
-  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3); /* brilho suave */
+  border: 2px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
   transition: all 0.3s ease;
 }
 
