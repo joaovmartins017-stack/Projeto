@@ -5,7 +5,7 @@ Meu primeiro projeto como desenvolvedor
 </p>
 
 <p align="center">
-  <img alt="projeto de uma Loja de joias" src="./assets/logo-marca.jpeg.jpeg" width="100%">
+  <img alt="projeto de uma Loja de joias" src="./assets/logo-marca.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
