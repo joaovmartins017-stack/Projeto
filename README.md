@@ -13,7 +13,6 @@ Trata-se de uma página simples e totalmente responsiva, criada com foco em **HT
 
 ## 📸 Preview
 
-Exemplo:  
 ![preview do projeto](./preview.png
 )
 
