@@ -15,7 +15,7 @@ Trata-se de uma página simples e totalmente responsiva, criada com foco em **HT
 
 *(Adicione um print do projeto aqui, se quiser)*  
 Exemplo:  
-![preview do projeto](./preview.png)
+![preview do projeto](./Screenshot_11)
 
 ---
 
